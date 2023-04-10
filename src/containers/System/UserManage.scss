@@ -1,0 +1,53 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.modal-user-contaienr {
+    .container_hook {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+    }
+    .input-container_width {
+        width: 99%;
+    }
+    .input_container_three {
+        width: 32%;
+    }
+    input {
+        border-radius: 3px;
+        height: 30px;
+        border: 1px solid #dddddd;
+        outline: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        :focus {
+            outline: #682020;
+        }
+    }
+    .button-modal {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

@@ -1,0 +1,72 @@
+.login_background {
+    height: 100vh;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(135deg, rgb(30, 200, 203) 0%, rgb(176, 125, 16) 100%);
+    display: flex;
+    justify-content: center;
+
+    .login_container {
+        width: 400px;
+        margin: auto;
+        border-radius: 1rem;
+        background-color: #fff;
+    }
+    .login_content {
+        padding: 2rem 2rem;
+        .login-input {
+            margin: 10px 0;
+            font-size: 1rem;
+            padding: 0.75rem 1rem;
+        }
+        .btn-login {
+            width: 100%;
+            background: linear-gradient(135deg, rgb(30, 200, 203) 0%, rgb(176, 125, 16) 100%);
+            margin: 10px 0;
+            border-radius: 4px;
+            outline: none;
+            border: none;
+            height: 40px;
+            color: white;
+            font-size: 15px;
+        }
+        .forgot-pass {
+            font-size: 13px;
+            text-decoration: underline;
+            color: rgb(208, 24, 24);
+        }
+        .login-with {
+            text-align: center;
+            margin-top: 4rem;
+        }
+    }
+    .text-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+.social-login {
+    margin-top: 1rem;
+    .social-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-main a {
+        margin: 0 7px;
+    }
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.dispplaypassword {
+    top: 50%;
+    right: 8%;
+    cursor: pointer;
+}

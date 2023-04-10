@@ -1,1 +1,81 @@
-@import "../styles/common.scss";
+@import '../styles/common.scss';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root {
+    --color-bg: #212f3f;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-light: rgba(255, 255, 255, 0.8);
+    --color-footer-bt: #e5e5e5;
+    --color-boder: #f1f2f2;
+    --color-bg-primary: #c19a83;
+    --transition: all 400ms ease;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    text-rendering: optimizeSpeed;
+    overflow-y: overlay;
+}
+
+.gap-10 {
+    gap: 1.25rem;
+}
+.gap-15 {
+    gap: 1.8rem;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.button {
+    padding: 0 1.25rem;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 5px;
+}
+.button-primary {
+    background-color: #45b3d7;
+}
+
+.button-primary:hover {
+    background-color: #ebcd00 !important;
+    color: #000;
+}
+
+a[href] {
+    color: var(--black);
+    text-decoration: none;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}

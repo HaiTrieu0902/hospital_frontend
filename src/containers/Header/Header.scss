@@ -1,5 +1,7 @@
-@import "../../styles/common.scss";
-
+@import '../../styles/common.scss';
+.header_admin {
+    background-color: #0071ba;
+}
 .header-container {
     z-index: 99;
     display: flex;
@@ -19,5 +21,24 @@
         i {
             font-size: $base-size + 1px;
         }
+    }
+}
+
+.language_vi {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    opacity: 0.5;
+    &.active {
+        color: #f7d800;
+        opacity: 1;
+    }
+}
+
+.language_en {
+    margin-right: 1.5rem;
+    opacity: 0.5;
+    &.active {
+        color: #f7d800;
+        opacity: 1;
     }
 }

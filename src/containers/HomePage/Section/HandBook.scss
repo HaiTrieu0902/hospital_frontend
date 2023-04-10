@@ -1,0 +1,48 @@
+.hanbook-home-section {
+    margin-top: 10rem;
+    background-color: #ffffff;
+}
+.hanbook_content {
+    margin-bottom: 5rem;
+}
+
+.handbook_items {
+    width: 49%;
+}
+.handbook_item {
+    display: flex;
+}
+
+.handbook-img img {
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.slick-prev {
+    z-index: 1000 !important;
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #ffffff !important;
+    border-radius: 9px;
+    &:hover {
+        background-color: #45b3d7 !important;
+    }
+}
+
+.slick-next {
+    background-color: #ffffff !important;
+    z-index: 1000 !important;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 9px;
+    &:hover {
+        background-color: #45b3d7 !important;
+    }
+}
+
+.slick-prev::before {
+    color: #ffc10e !important;
+}
+
+.slick-next::before {
+    color: #ffc10e !important;
+}
